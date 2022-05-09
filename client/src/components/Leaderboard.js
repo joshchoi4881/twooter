@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useConnectedWallet } from "@terra-money/wallet-provider";
-import * as query from "../contract/query";
+import * as query from "../helpers/query";
 import Header from "../components/Header";
 
 const Leaderboard = () => {

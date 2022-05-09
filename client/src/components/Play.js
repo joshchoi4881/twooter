@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useConnectedWallet } from "@terra-money/wallet-provider";
 import * as execute from "../helpers/execute";
-import LoadingIndicator from "./LoadingIndicator";
+import LoadingIndicator from "./Loader";
 
 const DEFAULT_SCORE = 0;
 const DEFAULT_TIME = 15;

@@ -1,7 +1,8 @@
 import { useConnectedWallet } from "@terra-money/wallet-provider";
 
 const Address = () => {
-  const { terraAddress } = useConnectedWallet();
+  const connectedWallet = useConnectedWallet();
+  const { terraAddress } = { ...connectedWallet };
 
   return (
     <div>
